@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-	 
+	 <%- includes('../partials/header.ejs) %>
 	<main>
 		<h1>Home Page</h1>
 		<img src="/images/node.jpg" width="60%">
@@ -16,9 +16,16 @@
 			<div>
 				<label for="name">Buscar Usuario</label>
 				<input type="text" name="user" id="name">
+				<% if(locals.errors && errors.user){ %>
+					<div>
+						<i>
+							<%= errors.user.msg %>
+						</i>
+					</div>
+				<% } %>
 			</div>
 			<br>
-			<button type="submit">Ingresar</button>
+			<button type="submit">Buscar</button>
 		</form>
 	</main>
 	

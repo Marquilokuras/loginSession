@@ -12,13 +12,28 @@
 		<h1>Create</h1>
 		<img src="/images/node.jpg" width="60%">
 
-		<form action="/admin" method="get">
+		<form action="/admin/create" method="post" enctype="multipart/form-data">
 			<div>
-				<label for="name">Crear Usuario</label>
-				<input type="text" name="user" id="name">
+				<label for="name">Usuario</label>
+				<input type="text" name="username" id="name">
 			</div>
 			<br>
-			<button type="submit">Ingresar</button>
+			<div>
+				<label for="avatar">Foto de Perfil</label>
+				<input type="file" name="avatar" id="avatar" accept=".jpg, .png, .jpeg">
+			</div>
+			<br>
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email">
+			</div>
+			<br>
+			<div>
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password">
+			</div>
+			<br>
+			<button type="submit">Registrarse</button>
 		</form>
 	</main>
 	
