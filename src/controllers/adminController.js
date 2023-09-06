@@ -8,7 +8,7 @@ const adminController = {
     },
 
     createUser: (req, res) => {
-        res.rendirect('/usuarios')
+        res.redirect('/usuarios')
     }
 }
 

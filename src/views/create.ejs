@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Create</title>
 	<link rel="stylesheet" href="/css/app.css">
 </head>
+
 <body>
-	 
+
 	<main>
 		<h1>Create</h1>
 		<img src="/images/node.jpg" width="60%">
 
-		<form action="/admin/create" method="post" enctype="multipart/form-data">
+		<form action="/admin/create" method="post">
 			<div>
 				<label for="name">Usuario</label>
-				<input type="text" name="username" id="name">
+				<input type="text" name="username" id="name"
+					value="<%= (locals.old && old.username) ? old.username : '' %>">
+				<% if(locals.errors && errors.username){ %>
+					<div>
+						<i>
+							<%= errors.username.msg %>
+						</i>
+					</div>
+					<% } %>
 			</div>
 			<br>
 			<div>
@@ -25,17 +35,32 @@
 			<br>
 			<div>
 				<label for="email">Email</label>
-				<input type="email" name="email" id="email">
+				<input type="email" name="email" id="email" value="<%= (locals.old && old.email) ? old.email : '' %>">
+				<% if(locals.errors && errors.email){ %>
+					<div>
+						<i>
+							<%= errors.email.msg %>
+						</i>
+					</div>
+					<% } %>
 			</div>
 			<br>
 			<div>
 				<label for="password">Password</label>
 				<input type="password" name="password" id="password">
+				<% if(locals.errors && errors.password){ %>
+					<div>
+						<i>
+							<%= errors.password.msg %>
+						</i>
+					</div>
+					<% } %>
 			</div>
 			<br>
 			<button type="submit">Registrarse</button>
 		</form>
 	</main>
-	
+
 </body>
+
 </html>

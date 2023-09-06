@@ -76,4 +76,42 @@ El usuario ingresó a la ruta: / con el método http de: GET
     El usuario ingresó a la ruta: / con el método http de: GET 
     El usuario ingresó a la ruta: / con el método http de: GET 
     El usuario ingresó a la ruta: / con el método http de: GET 
+    El usuario ingresó a la ruta: / con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /usuarios con el método http de: GET 
+    El usuario ingresó a la ruta: /usuarios con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: / con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin?user= con el método http de: GET 
+    El usuario ingresó a la ruta: /admin?user=Ada con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: POST 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: / con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /usuarios con el método http de: GET 
+    El usuario ingresó a la ruta: /admin?user=Ada con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin?user=Ada con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /usuarios con el método http de: GET 
+    El usuario ingresó a la ruta: / con el método http de: GET 
+    El usuario ingresó a la ruta: / con el método http de: GET 
+    El usuario ingresó a la ruta: /admin?user=marcos con el método http de: GET 
+    El usuario ingresó a la ruta: /admin?user=Ada con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: GET 
+    El usuario ingresó a la ruta: /admin/create con el método http de: POST 
+    El usuario ingresó a la ruta: /admin/create con el método http de: POST 
+    El usuario ingresó a la ruta: /admin/create con el método http de: POST 
+    El usuario ingresó a la ruta: /admin/create con el método http de: POST 
+    El usuario ingresó a la ruta: /admin/create con el método http de: POST 
+    El usuario ingresó a la ruta: /admin/create con el método http de: POST 
+    El usuario ingresó a la ruta: /usuarios con el método http de: GET 
+    El usuario ingresó a la ruta: / con el método http de: GET 
     

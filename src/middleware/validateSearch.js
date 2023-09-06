@@ -14,6 +14,6 @@ const validationSearch = (req, res, next) => {
 }
 
 module.exports = {
-    validationSearch,
-    arrValidate
+    arrValidate,
+    validationSearch
 }
